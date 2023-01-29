@@ -1,0 +1,50 @@
+@import url("reset.css");
+*{
+   font-family: "Montserrat";
+   font-size: 14px;
+   background-color: #d4d3d3;
+}
+.head{
+    text-align: center;
+}
+.head .header{
+   color: gold;
+   font-size: 40px;
+   line-height: 50px;
+   }
+   .head h3{
+      font-size: 30px;
+      line-height: 40px;
+      color: blue;
+   }
+   a.link{
+      color: rgb(21, 21, 160);
+      
+   }
+   div.img{
+      text-align: center;
+
+   }
+
+   .text,
+   .title {
+      font-size: 20px;
+
+   }
+.text>p{
+   color: rgb(12, 156, 156);
+}
+.text~p{
+   color: rgb(156, 12, 43);
+}
+.text+p{
+   color: rgb(19, 12, 156);
+}
+[class*="fo"]
+{color: rgb(51, 210, 30);
+   font-size: 25px;
+}
+div.title{
+   color: rgb(154, 24, 7);
+   text-align: center;
+}
