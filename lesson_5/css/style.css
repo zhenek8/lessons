@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900,&display=swap");
+*{
+  background-color: #E5E5E5 ;
+  }
+  body{
+  max-width: 1240px;
+  font-family: "Poppins",sans-serif;
+  margin: 80px 100px;
+  }
+   [class*="conteiner"]
+{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #6C757D;
+  text-align: left;
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+div.title{
+color: #212529;
+font-weight: 700;
+font-size: 25px;
+line-height: 1.6;
+margin-bottom: 40px;
+}
+.title h1 {
+  max-width: 400px;
+}
+.title h2{
+  max-width: 605px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+
+  [class*="img"] 
+{
+  font-size: 0;
+  max-width: 100%;
+  margin: 0 auto 80px ;
+}
+.img2{ 
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+.experiment{
+  font-family: "Itim",cursive;
+  max-width: 1240px;
+  
+}
+.experiment h3{
+  background-color: rgb(113, 230, 232);
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto 40px;
+ }
+.text__scrol,
+.text__scrol1{
+  background-color: bisque;
+  overflow: scroll;
+  margin: 0 auto 40px;
+  max-width: 400px;
+  max-height: 100px; 
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.6;
+ }
+  .text__scrol{ 
+  margin-right: 255px; 
+ } 
+.list{
+  font-size: 0;
+  margin: 0 auto;
+  max-width: 250px;
+}
+.list__item{
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+  background-color: cadetblue;
+}
+.link{
+  background-color: cadetblue;
+}
+
+
