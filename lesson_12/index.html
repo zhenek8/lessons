@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap" 
+    rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css" >
+    <title>lesson_12</title>
+  </head>
+
+  <body>
+	<div class="wrapper">
+<header class="header">
+	<div class="header__container">
+		<div class="title">
+			<h1 class="title__text">CSS transform. <br> 2D і 3D трансформації</h1>
+		</div>	
+	</div>
+
+</header>
+<main class="main">
+	<div class="main__container">
+		<div class="content2d">
+			<section class="content2d__block">
+				<h2>translate (x, y)</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__translate">translate</div>
+				</div>
+				<p><strong>translate</strong> - Зміщує елемент на нове місце, переміщаючи відносно початкового положення об'єкта вправо та вниз, використовуючи координати X та Y. Записується так translate (x,y).</p>
+			</section>
+			<section class="content2d__block">
+				<h2>scale (x, y)</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__scale">
+						scale
+					</div>
+				</div>
+				<p><strong>scale</strong> - Scale (x, y) Масштабує елементи, роблячи їх більшими або меншими.</p>
+			</section>
+			<section class="content2d__block">
+				<h2>rotate (кут+deg)</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__rotate">
+						rotate
+					</div>
+				</div>
+				<p><strong>rotate</strong> - Повертає елементи.</p>
+			</section>
+			<section class="content2d__block">
+				<h2>skew (x-кут+deg, y-кут+deg)</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__skew">
+						skew
+					</div>
+				</div>
+				<p><strong>skew</strong> - Деформує (нахиляє) елементи.</p>
+			</section>
+			<section class="content2d__block">
+				<h2>matrix (a, c, b, d, x, y)</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__matrix">
+						matrix
+					</div>
+				</div>
+				<p><strong>matrix(a, c, b, d, x, y)</strong> - Дозволяє об'єднати кілька функцій 2D-трансформацій в одній.</p>
+			</section>
+			<section class="content2d__block">
+				<h2>Множинні 2D трансформації</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__multi">
+						translate <br> scale <br> rotate
+					</div>
+				</div>
+			</section>
+			<section class="content2d__block">
+				<h2>transform-origin</h2>
+				<div class="content2d__wrapper">
+					<div class="content2d__transform-origin">
+						transform origin
+					</div>
+				</div>
+				<p><strong>transform-origin</strong> - Дозволяє змістити центр трансформації, щодо якого відбувається зміна положення/розміру/форми елемента.</p>
+			</section>
+		</div>
+		<div class="content3d">
+			<section class="content3d__block">
+				<h2>translate3d (x, y, z)</h2>
+				<div class="content3d__wrapper">
+					<div class="content3d__translate">translate3D</div>
+				</div>
+				<p><strong>translate3D</strong> - За аналогією зі своїм 2D братом, це значення визначає переміщення елемента, але в 3D-просторі. Крім осі X та Y додається вісь Z. !! вісь Z працює з перспективою</p>
+			</section>
+			<section class="content3d__block">
+				<h2>scale3d (x, y, z)</h2>
+				<div class="content3d__wrapper">
+					<div class="content3d__scale">scale3D</div>
+				</div>
+			</section>
+			<section class="content3d__block">
+				<h2>rotate3d (x, y, z, deg)</h2>
+				<div class="content3d__wrapper">
+					<div class="content3d__rotate">rotate3d</div>
+				</div>
+			</section>
+			<section class="content3d__block">
+				<h2>Множинні 3D трансформации</h2>
+				<div class="content3d__wrapper">
+					<div class="content3d__multi">
+						translate3d <br> rotate3d
+					</div>
+				</div>
+				<p>Запис декількох 3D значень в одну властивість transform.</p>
+			</section>
+			</div>
+	</div>
+</main>
+    <footer class="footer"> 
+		<div class="footer__container">
+			<div class="content-auto">
+				<div class="content-auto__block">
+					<div class="sport-car">
+						<div class="sport-car__position">
+							 <div class="car">
+								  <div class="car__top">
+										<div class="car__window-left"></div>
+										<div class="car__window-right"></div>
+								  </div>
+								  <div class="car__tread-first">
+										<div class="car__disc">
+											 <div class="car__small">
+												  <div class="car__end"></div>
+											 </div>
+										</div>
+								  </div>
+								  <div class="car__tread-second">
+										<div class="car__disc2">
+											 <div class="car__small2">
+												  <div class="car__end2"></div>
+											 </div>
+										</div>
+								  </div>
+								  <div class="car__beforelight"></div>
+								  <div class="car__afterlight"></div>
+								  <div class="car__handle"></div>
+								  <div class="car__handle2"></div>
+								 </div>
+						</div>
+				  </div>
+
+				</div>
+
+				
+
+		</div>
+		</div>
+		
+	
+	</footer>
+
+	</div>
+  </body>
+</html>
